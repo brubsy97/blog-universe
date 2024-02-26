@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | Universe</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li>
+                <a href="/">
+                    <img src="./assets/logo.svg" alt="">
+                </a>
+            </li>
+
+            <li>
+                <a href="/" onclick="route()" class="active">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="/universe" onclick="route()">
+                    theUniverse
+                </a>
+            </li>
+
+            <li>
+                <a href="/exploration" onclick="route()">
+                    Exploration
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="app"></div>
+
+    <script type="module" src="./js/index.js"></script>
+</body>
+</html>
